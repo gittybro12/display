@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    width: 50%;
+}
+.nav{
+    background-color: red;
+    margin: 0px 0;
+    text-align: end;
+}
+.nav a{
+    padding: 20px 15px;
+    display: inline-block;
+font-size: 20px;
+text-decoration: none;
+color: white;
+font-weight: 500;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img{
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+}
+.img img{
+    width: 200px;
+}
+.nav a:hover{
+    background-color: white;
+    color: black;
+}
+.first{
+background-color: purple;
+padding:60px;
+font-size: 60px;
+color: white;
+display: flex;
+flex-direction: column;
+padding-left: 80px;
+
+}
+.first .hola{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.second{
+    background-image: url(../img/store.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+.third{
+   background: linear-gradient(rgba(128, 0, 128, 0.479),rgba(128, 0, 128, 0.479)),url(../img/store.jpg); 
+   background-size: cover;
+   background-repeat: no-repeat;
+  padding: 50px;
+  margin-top: 0px;
+  font-size: 25px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.a{
+    margin: 40px 0;
+    font-style: italic;
+    font-size: 40px;
+}
+.fourth{
+    background-image: url(../img/coffee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+.fifth{
+    background-image: url(../img/store.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding: 20px 0; 
+    
+}
